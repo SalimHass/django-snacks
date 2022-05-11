@@ -16,7 +16,7 @@ in this lab we started working with django, here is the steps we followed to cre
 13. create views -using templates- inside the views.py of the app
 14. add urls.py in the app folder and add to it the desired paths
 15. add the app urls.py to the projects urls.py , using include and import include in the top
-16. add `os.path.join(BASE_DIR, 'templates')` to the settings.py under TEMPLATES-> "DIRS" list
+16. add `BASE_DIR / 'templates'` to the settings.py under TEMPLATES-> "DIRS" list
 17. after each adding to a model use `python manage.py makemigrations` and then `python manage.py migrate`
 -----
 ## in this lab
