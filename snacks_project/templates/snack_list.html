@@ -3,7 +3,7 @@
 {% block title %}snack list{% endblock title %}
 
 {% block content %}
-
+<p>snack list</p>
 {% for thing in things_list %}
 <p><a href="{% url 'snack_detail' pk=thing.pk %}">{{snack.name}} - {{snack.purchaser}}</a></p>
 {% endfor %}
